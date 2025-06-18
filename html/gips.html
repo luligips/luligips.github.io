@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004aaf" />
+    <meta http-equiv="refresh" content="1200; url=../index.html">
+    <title>Luli Gips</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <script src="https://kit.fontawesome.com/25190ce31d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="../images/icon.png">
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/index.html">Kryefaqja</a>
+        <a href="../html/gips.html">Gips</a>
+        <a href="../html/bojera.html">Bojera</a>
+        <a href="../html/kcs.html">KCS(Tavanet e varura)</a>
+        <a href="../html/kapot.html">Kapot</a>        
+        <a href="../html/pft.html">PFT</a>
+        <a href="../html/kontakto.html">Kontakto</a>
+      </div>
+    <div class="header">
+        <div class="logo" id="logo">
+            <a href="/index.html"><img src="../images/luligips.png" alt=""></a>
+        </div>
+        <div class="links" id="links">
+            <a href="/index.html" class="border">Kryefaqja</a>
+            <div class="dropdown-btn">
+                <a class="produkte">Produkte<i class="fa fa-angle-down" aria-hidden="true" style="margin: 2px;"></i></a>
+                    <div class="dropdown">
+                        <a href="../html/gips.html">Gips</a>
+                        <a href="../html/bojera.html">Bojera</a>
+                        <a href="../html/kcs.html">KCS(Tavanet e varura)</a>
+                        <a href="../html/kapot.html">Kapot</a>
+                        <a href="../html/pft.html">PFT</a>
+                    </div>
+            </div>
+            <a href="../html/kontakto.html" class="border">Kontakto</a>
+        </div>
+        
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        
+    </div>
+
+
+    <div class="section" id="section">
+        <div class="logos" data-aos="fade-down" data-aos-duration="500">
+            <img src="../images/knauf-logo.png" alt="" id="knauf-logo">
+        </div>
+        <p id="paragraph" data-aos="fade-left">Me krenari prezantojmë veten si partneri më i madh i Knauf në Shqipëri. Bashkëpunimi ynë i afërt me Knauf ka bërë që të jemi liderë në tregun shqiptar të produkteve ndërtimore.
+         Ne ofrojmë një gamë të gjerë të produkteve Knauf, duke përfshirë materiale inovative dhe zgjidhje cilësore për projektet tuaja ndërtimore. Eksperienca jonë dhe angazhimi ndaj cilësisë bëjnë që ne të jemi zgjedhja e preferuar
+         për klientët që kërkojnë standardet më të larta në industrinë e ndërtimit.</p>
+    </div>
+    
+    <div class="bar"> 
+        <div class="lloji-pllaka">
+            <button class="lloji-btn" id="pllaka-btn" data-aos="fade-up">Pllaka</button>
+        </div>
+
+        <div class="lloji-profile">
+            <button class="lloji-btn" id="profile-btn" data-aos="fade-up" data-aos-delay="100">Profile</button>
+        </div>
+
+        <div class="lloji-stuko">
+            <button class="lloji-btn" id="stuko-btn" data-aos="fade-up" data-aos-delay="150">Stuko</button>
+        </div>
+
+        <div class="lloji-lesh">
+            <button class="lloji-btn" id="lesh-btn" data-aos="fade-up" data-aos-delay="200">Lesh</button>
+        </div>
+
+        <div class="lloji-aksesore">
+            <button class="lloji-btn" id="aksesore-btn" data-aos="fade-up" data-aos-delay="250">Aksesore</button>
+        </div>
+
+    </div>
+
+    <div class="list" id="profile">
+        
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/profile/profil-ud.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PROFIL UD</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Profil llamarine i formuar në të ftohtë me prerje C për tu përdorur si profil kryesor ose mbajtës në konstruksionin e tavaneve të varura si dhe si profile vertikale në konstruksionet e veshjes së murit me konstruksion UD/CD.</p>
+                     <br><ul>
+                        <li>Gjerësi brinje: 60 mm.</li>
+                        <li>Lartësi: 27 mm.</li>
+                        <li>Trashësi lamarine: 0,6 mm.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/profile/profil-cd.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PROFIL CD</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Profil llamarine i formuar në të ftohtë me prerje C për tu përdorur si profil kryesor ose mbajtës në konstruksionin e tavaneve të varura si dhe si profile vertikale në konstruksionet e veshjes së murit me konstruksion UD/CD.</p>
+                     <br><ul>
+                        <li>Gjerësi brinje: 60 mm.</li>
+                        <li>Lartësi: 27 mm.</li>
+                        <li>Trashësi lamarine: 0,6 mm.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/profile/profil-uw.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PROFIL UW</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Profil prej llamarine të zinkuar i formuar në të ftohtë me seksion U, i cili përdoret në rradhë të parë si profil përimetral për mure dhe tavane të varura që nuk fiksohen në tavan.</p>
+                     <br><ul>
+                        <li>Gjerësia e krahëve: 40 mm.</li>
+                        <li>Lartësia: 50/75/100/125/150 mm.</li>
+                        <li>Trashësi llamarine: 0,6 mm.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/profile/profil-cw.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PROFIL CW</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Profile llamarine të zinkuara të formuara në të ftohtë me seksion C, të cilat përdoren në rradhë të parë si profile vertikale të mureve me konstruksion metalik, por edhe si profil mbajtës të tavaneve të varura të pa fiksuar në soletë.</p>
+                     <br><ul>
+                        <li>Gjerësia e brinjëve: 50 mm.</li>
+                        <li>Lartësia : 50/75/100/125/150 mm.</li>
+                        <li>Trashësia e llamarinës: 0,6 mm.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/profile/profil-ua.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PROFIL UA</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Profil metalik i formuar ne te ftohte me nje prejre terthore ne forme C për tu përdorur në mure, tavane dhe sistemin Cubo.</p>
+                     <br><ul>
+                        <li>Gjeresia e brinjes: 40 mm.</li>
+                        <li>Gjatesia e shines: 50/75/100/125/150 mm.</li>
+                        <li>Trashesia: 2mm.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="list" id="pllaka">
+        
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/fireboard.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI FIREBOARD</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/GKB.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI GKB</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/GKB-I.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI GKBI</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/GKF.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI GKF</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/A10.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI A10</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/Diamant.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI DIAMANT</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/formplatte.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI FORMPLATTE</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/sonicboard.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI SONICBOARD</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.25m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/aquapanel-IN.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË CIMENTATO AQUAPANEL INDOOR</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.2m x 2.5m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/aquapanel-OUT.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI AQUAPANEL OUTDOOR</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.2m x 2m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/aquapanel-uni.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI AQUAPANEL UNIVERSAL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.2m x 2.4m</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src=" ../images/pllaka/aquapanel-skylite.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PLLAKË GIPSI AQUAPANEL SKYLITE</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p><strong>Permasat</strong><br>1.2m x 2.4m</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="list" id="stuko">
+        
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-fugenfuller-leicht.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>FUGENFULLER LEICHT - STUKO KNAUF</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Përzierje e gatshme për stuko të thatë për fuga kartoni gipsi për mbyllje me shirit ngjitës. Konsumi: rreth 0,25-0,30 kg/m².</p>
+                    <br><ul>
+                        <li>Për punë të brendshme.</li>
+                        <li>Pluhur, gati për përzierje.</li>
+                        <li>Mbyllja e nyjeve me shirit të përbashkët.</li>
+                        <li>Mikstura e përzier me ujë mund të përpunohet deri në 45 minuta.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-uniflott.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>UNIFLOTT - STUKO KNAUF</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Përzierje e thatë stuko fugash për pllaka gipsi (për skajet HRAK dhe HRK pa ngjitës), 
+                    gati për t'u përzier me ujë, me bazë gipsi special. Konsumi: përafërsisht 250 g fugë për 1 m.</p>
+                     <br><ul>
+                        <li>Për punë të brendshme.</li>
+                        <li>Pluhur, gati për përzierje.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                        <li>Mikstura e përzier me ujë mund të përpunohet deri në 45 minuta.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-uniflott-impragniert.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>UNIFLOTT IMPRAGNIERT - STUKO KNAUF</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Përzierje e thatë e një stuko fuçi kartoni gipsi rezistent ndaj lagështirës (për skajet HRAK pa ngjitës fugash) me bazë gipsi special,
+                     gati për t'u përzier me ujë. Konsumi: përafërsisht 250 g fugë për 1 m.</p>
+                    <br><ul>
+                        <li>Për punë të brendshme në dhoma me lagështirë.</li>
+                        <li>Pluhur, gati për përzierje.</li>
+                        <li>Ujë laregues, jeshil në ngjyrë.</li>
+                        <li>Mikstura e përzier me ujë mund të përpunohet deri në 45 minuta.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-biofinish.png" alt="" style="filter: saturate(1);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF BIOFINISH - STUKO PATINIMI</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Stuko me bazë gëlqere të përgatitur në fabrikë për përdorim të brendshëm.</p>
+                    <p><strong>Konsumi: </strong>1 kg / m² për 1 mm trashësi.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-biofinish-pro.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF BIOFINISH PRO - STUKO PATINIMI</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Për krijimin e sipërfaqeve të lëmuara dhe perfekte.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-mp75.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF MP75</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Përzierje e thatë me suva gipsi të gatshme për suvatimin e tavaneve të betonit dhe sipërfaqeve të mureve minerale në dhoma me nivel normal lagështie (duke përfshirë kuzhinat dhe banjat).
+                     Konsumi rreth 10,5 kg/m²/10 mm.</p>
+                     <br><ul>
+                        <li>Për suvatimin e mureve dhe tavaneve në punimet e brendshme.</li>
+                        <li>Siguron një klimë të rehatshme në dhomë.</li>
+                        <li>I përshkueshëm nga avujt e ujit.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                        <li>Aplikohet në sipërfaqe në një shtresë prej 8 deri në 50 mm.</li>
+                        <li>Sipërfaqja mund të lëmohet për të qenë gati për lyerje, letër muri etj.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-perlfix.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF PERLFIX</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Knauf Perlfix është një ngjitës me bazë gipsi në formë pluhuri për ngjitjen e pllakave të gipsit në mur si suva e thatë.</p>
+                    <br><ul>
+                        <li>Përzierje e gatshme në formë pluhuri.</li>
+                        <li>Me bazë gipsi.</li>
+                        <li>Me aftësi shumë të mira ngjitëse.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-flachenspachtel.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF FLACHENSPACHTEL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Me mbushësin e sipërfaqes Knauf Rotband nga familja e njohur Rotband,
+                     ju mund të krijoni sipërfaqen ideale për të gjitha punët e mëvonshme të veshjes së murit dhe lyerjes,
+                     si dhe për suvatimin dekorativ.</p>
+                     <br><ul>
+                        <li>Tharje e shpejtë.</li>
+                        <li>Shumë elastike.</li>
+                        <li>Rendiment i lartë.</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-fireboard-spachtel.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF FIREBOARD-SPACHTEL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Stuko gipsi për stuko manuale të sipërfaqes dhe fugave të Knauf Fireboard. Konsumi: rreth 1,05 kg/m²/mm.</p>
+                    <br><ul>
+                        <li>Për punë të brendshme.</li>
+                        <li>Pluhur, gati për përzierje.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                        <li>Ngjitje e mirë në sipërfaqen e Fireboard.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-klebespachtel.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF KLEBESPACHTEL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Ngjitës me fibra universale të përgatitur nga fabrika,
+                     i destinuar për ngjitjen dhe përforcimin e paneleve të fasadës prej leshi guri dhe polisterolit.</p>
+                     <br><ul>
+                        <li>Ngjitës i fuqishëm.</li>
+                        <li>I përshkueshëm nga avujt e ujit.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-klebespachtel-m.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF KLEBESPACHTEL M</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Një përzierje e thatë e gatshme për t'u përzier me ujë për të bërë një përzierje ngjitëse dhe përforcuese për pllakat izoluese të leshit mineral.</p>
+                     <br><ul>
+                        <li>Për punë të brendshme dhe të jashtme.</li>
+                        <li>I përshkueshëm nga avujt e ujit.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/stuko/knauf-thermokleber-plus.png" alt=""></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>KNAUF THERMOKLEBER PLUS</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Suva e pergatitur ne fabrik per ngjitjen e pllakave stiropor te fasades.</p>
+                     <br><ul>
+                        <li>Për punë të brendshme dhe të jashtme.</li>
+                        <li>I përshkueshëm nga avujt e ujit.</li>
+                        <li>Jo i ndezshëm, ndjeshmëria ndaj zjarrit: A1.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div class="list" id="lesh">
+        
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-ekoroll.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL QELQOR - EKOROLL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pambuk mineral qelqor me ECOSE® Technology, i cili dorëzohet në rolne. <br><br>Aplikimi i rekomanduar: tavanet, tavanet e lëshuara, muret e brendshme, muret e jashtme (si mbushje), kulmet e pjerrëta.</p>
+                     <br><ul>
+                        <li>Karakteristika të shkëlqyera termoizoluese.</li>
+                        <li>Rezistencë e lartë ndaj zjarrit.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-mpn-plus-037.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL QELQOR - MPN PLUS 037</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllakë izoluese shumëdestinuese.
+                        Aplikimi i rekomanduar: plafonët e lëshuar, tavanet,
+                        kulmet e pjerrëta dhe muret ndarëse.
+                        MPN PLUS 037 është pllakë kompakte nga
+                        pambuku mineral, me dimensione 600x1200mm.
+                        Produkti është i padjegshëm, rezistues ndaj
+                        temperaturave të larta, i papërshkueshëm nga uji,
+                        rezistues ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Karakteristika të shkëlqyera termoizoluese.</li>
+                        <li>Rezistencë e lartë ndaj zjarrit.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-naturboard-fit.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - NATURBOARD FIT</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për plafon të lëshuar,
+                        tavane dhe kulme të pjerrëta.
+                        NaturBoard FIT është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produkteve të buta.
+                        Produkti është i padjegshëm, rezistent ndaj temperaturave të larta, i papërshkueshëm nga uji, rezistent ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Mbrojtje nga zjarri.</li>
+                        <li>Konsistencë dhe kompaktësi.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-naturboard-fit-plus.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - NATURBOARD FIT PLUS</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për kulme të pjerrëta.
+                        NaturBoard FIT PLUS është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produktevetë buta.
+                        Produkti është i padjegshëm, rezistent ndaj temperaturave të larta, i papërshkueshëm nga uji, rezistent
+                        ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Mbrojtje nga zjarri.</li>
+                        <li>Qëndrueshmëri dhe kompaktësi.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-naturboard-venti.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - NATURBOARD VENTI</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për muret sanduiç
+                        dhe fasadat e ventiluara.
+                        NaturBoard VENTI është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produkteve gjysmë të forta.
+                        Produkti është i padjegshëm, rezistent ndaj temperaturave të larta, i papërshkueshëm nga uji, rezistent ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Mbrojtje nga zjarri.</li>
+                        <li>Konsistencë dhe kompaktësi.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-naturboard-ventacusto.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - NATURBOARD VENTACUSTO</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për fasadat e ventiluara, veshjet e mureve dhe muret ndarëse me karakteristika të përforcuara akustike-absorbuese.
+                        NaturBoard VENTACUSTO është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produkteve gjysmë të forta.
+                        Produkti është i padjegshëm, rezistent ndaj temperaturave të larta, i papërshkueshëm nga uji, rezistent ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Mbrojtje nga zjarri.</li>
+                        <li>Konsistencë dhe kompaktësi.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-fkd-s-thermal.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - FKD-S THERMAL</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për fasadën kontaktuese.
+                        FKD-S Thermal është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produkteve të forta.
+                        Produkti e ka karakteristikën e përmirësuar termike, vlerën më të ulët të koeficientit të përçueshmërisë termike, e cila siguron mbrojtjen më të mirë termike të objektit.</p>
+                     <br><ul>
+                        <li>Karakteristika të shkëlqyera termoizoluese.</li>
+                        <li>Rezistencë e lartë ndaj zjarrit.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-naturboard-tf.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - NATURBOARD TF</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Produkti NaturBoard TF është një pllakë e fortë, kompakte prej leshi guri me një densitet konstant dhe λ=0,035 W/mK, e përshtatshme për përdorime të shumta
+                        në aplikime me kërkesa të larta.
+                        Produkti është jo i djegshëm, rezistent ndaj temperaturave të larta, rezistent ndaj plakjes dhe kimikisht inert.
+                        Produkti është i destinuar për izolim termik me performancë të lartë, izolim të zërit - mbrojtje nga zhurma ajrore dhe ndikimi - por edhe mbrojtje nga zjarri në aplikime me kërkesa dhe specifika të larta teknike.</p>
+                     <br><ul>
+                        <li>Mbrojtje nga zjarri.</li>
+                        <li>Termoizolim.</li>
+                        <li>Izolim i zërit.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="produkt" id="produkt">
+            <div class="img-container" id="img-container">
+                <div class="img-box">
+                    <span><img src="../images/lesh/knauf-pod-extra.png" alt="" style="filter: saturate(1.5);"></span>
+                </div>
+            </div>
+            <div class="produkt-details" id="produkt-details">
+                <div class="produkt-name" id="produkt-name">
+                    <strong><h1>PAMBUK MINERAL GUROR - POD EXTRA</h1></strong>
+                </div>
+                <div class="produkt-pershkrim" id="produkt-pershkrim">
+                    <p>Pllaka izoluese për konstruksionet e dyshemesë.
+                        POD EXTRA është pllakë kompakte nga pambuku mineral guror, me dendësi të qëndrueshme dhe u takon produkteve të forta.
+                        Produkti është i padjegshëm, rezistent ndaj temperaturave të larta, rezistent ndaj plakjes dhe është kimikisht neutral.</p>
+                     <br><ul>
+                        <li>Konsistencë dhe kompaktësi.</li>
+                        <li>Rezistencë ndaj plakjes.</li>
+                        <li>Pa aromë.</li>
+                     </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="list" id="aksesore">
+    </div>
+
+    <button class="toTop" id="toTop" onclick="toTop()"><i class="fas fa-angle-up"></i></button>
+
+
+    <div class="footer">
+        <div class="nav-bar">
+            <a href="/index.html">Kryefaqja</a><div class="vl"></div><a href="/html/kontakto.html">Kontakto</a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/luli.gips/?igshid=MmU2YjMzNjRlOQ%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/luligip/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div>
+            <h5>Copyright &copy; 2023|Luli Gips All rights reserved.</h5>
+        </div>
+    </div>
+
+    <script src="../js/js.js"></script>
+    <script>
+        
+   document.getElementById("profile-btn").addEventListener("click", function() {
+   showDiv("profile");
+  });
+  
+  document.getElementById("pllaka-btn").addEventListener("click", function() {
+   showDiv("pllaka");
+  });
+  
+  document.getElementById("stuko-btn").addEventListener("click", function() {
+   showDiv("stuko");
+  });
+  
+  document.getElementById("lesh-btn").addEventListener("click", function() {
+   showDiv("lesh");
+  });
+
+  document.getElementById("aksesore-btn").addEventListener("click", function() {
+   showDiv("aksesore");
+  });
+
+  function showDiv(divId) {
+   var divs = ["profile", "pllaka", "stuko", "lesh", "aksesore"];
+  
+   // Hide all divs
+   divs.forEach(function(id) {
+      document.getElementById(id).style.overflow = null;
+      document.getElementById(id).style.maxHeight = null;
+   });
+  
+   // Show the specified div
+   document.getElementById(divId).style.overflow = document.getElementById(divId).style.overflow + "visible";
+   document.getElementById(divId).style.maxHeight = document.getElementById(divId).scrollHeight + "px";
+  }
+  
+    </script>
+    
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>

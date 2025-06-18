@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#004aaf" />
+    <meta http-equiv="refresh" content="1200; url=/index.html">
+    <title>Luli Gips</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <script src="https://kit.fontawesome.com/25190ce31d.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="../images/icon.png">
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/index.html">Kryefaqja</a>
+        <a href="../html/gips.html">Gips</a>
+        <a href="../html/bojera.html">Bojera</a>
+        <a href="../html/kcs.html">KCS(Tavanet e varura)</a>
+        <a href="../html/kapot.html">Kapot</a>        
+        <a href="../html/pft.html">PFT</a>
+        <a href="../html/kontakto.html">Kontakto</a>
+      </div>
+    <div class="header">
+        <div class="logo" id="logo">
+            <a href="/index.html"><img src="../images/luligips.png" alt=""></a>
+        </div>
+        <div class="links" id="links">
+            <a href="/index.html" class="border">Kryefaqja</a>
+            <div class="dropdown-btn">
+                <a class="produkte">Produkte<i class="fa fa-angle-down" aria-hidden="true" style="margin: 2px;"></i></a>
+                    <div class="dropdown">
+                        <a href="../html/gips.html">Gips</a>
+                        <a href="../html/bojera.html">Bojera</a>
+                        <a href="../html/kcs.html">KCS(Tavanet e varura)</a>
+                        <a href="../html/kapot.html">Kapot</a>
+                        <a href="../html/pft.html">PFT</a>
+                    </div>
+            </div>
+            <a href="../html/kontakto.html" class="border">Kontakto</a>
+        </div>
+        
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        
+    </div>
+
+
+    <div class="bar"> 
+        <div class="lloji-polisterol">
+            <button class="lloji-btn" id="polisterol-btn" data-aos="fade-up">Polisterol</button>
+        </div>
+        
+        <div class="lloji-lesh-kapot">
+            <button class="lloji-btn" id="lesh-kapot-btn" data-aos="fade-up" data-aos-delay="100">Lesh</button>
+        </div>
+        
+        <div class="lloji-grafiato">
+            <button class="lloji-btn" id="grafiato-btn" data-aos="fade-up" data-aos-delay="200">Grafiato</button>
+        </div>
+    </div>
+
+    <div class="list" id="polisterol" style="display: flex;">
+
+    </div>
+
+    <div class="list" id="lesh-kapot" style="display: none;">
+    
+    </div>
+    
+    <div class="list" id="grafiato" style="display: none;">
+    
+    </div>
+
+    <button class="toTop" id="toTop" onclick="toTop()"><i class="fas fa-angle-up"></i></button>
+
+
+    <div class="footer">
+        <div class="nav-bar">
+            <a href="/index.html">Kryefaqja</a><div class="vl"></div><a href="../html/kontakto.html">Kontakto</a>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/luli.gips/?igshid=MmU2YjMzNjRlOQ%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/luligip/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div>
+            <h5>Copyright &copy; 2023|Luli Gips All rights reserved.</h5>
+        </div>
+    </div>
+</body>
+
+<script>
+    
+  document.getElementById("polisterol-btn").addEventListener("click", function() {
+    showDiv("polisterol");
+   });
+   
+   document.getElementById("lesh-kapot-btn").addEventListener("click", function() {
+    showDiv("lesh-kapot");
+   });
+   
+   document.getElementById("grafiato-btn").addEventListener("click", function() {
+    showDiv("grafiato");
+   });
+
+   function showDiv(divId) {
+    var divs = ["polisterol", "lesh-kapot", "grafiato"];
+   
+   // Hide all divs
+   divs.forEach(function(id) {
+      document.getElementById(id).style.overflow = null;
+      document.getElementById(id).style.maxHeight = null;
+   });
+  
+   // Show the specified div
+   document.getElementById(divId).style.overflow = document.getElementById(divId).style.overflow + "visible";
+   document.getElementById(divId).style.maxHeight = document.getElementById(divId).scrollHeight + "px";
+  }
+  
+
+
+AOS.init();
+
+</script>
+<script src="../js/js.js"></script>
+</html>
